@@ -1,3 +1,5 @@
+# Practical 1: Expert System using AIML
+# Suggested inputs: type 'fever', 'cough', 'fever cough', or 'exit'
 import os
 import aiml
 
@@ -12,8 +14,7 @@ def main():
         print("Error: AIML file not found!")
         return
 
-    print("Harshwardhan Chauhan 26K4HIT003")
-    print("Welcome to the flu diag center")
+    print("Welcome to the flu diag center (Type symptoms like 'fever', 'cough', 'fever cough' or 'exit')")
     
     while True:
         user_input = input("You: ").strip().lower()

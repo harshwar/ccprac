@@ -1,7 +1,9 @@
+# Practical 7: Fuzzy String Matching Ratios (Sentences)
+# Sample strings:
+# s1 = "I love learning Python programming"
+# s2 = "Python programming is my favourite subject"
 from fuzzywuzzy import fuzz
-from fuzzywuzzy import process
 
-print("-----------------------------")
 s1 = "I love learning Python programming"
 s2 = "Python programming is my favourite subject"
 
@@ -12,4 +14,3 @@ print("FuzzyWuzzy Partial Ratio:", fuzz.partial_ratio(s1, s2))
 print("FuzzyWuzzy Token Sort Ratio:", fuzz.token_sort_ratio(s1, s2))
 print("FuzzyWuzzy Token Set Ratio:", fuzz.token_set_ratio(s1, s2))
 print("FuzzyWuzzy WRatio:", fuzz.WRatio(s1, s2))
-print("-----------------------------")

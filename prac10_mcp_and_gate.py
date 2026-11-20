@@ -1,7 +1,6 @@
-
-print("--------------------------------------")
-print("AND Gate using McCulloch-Pitts Neuron")
-print("--------------------------------------")
+# Practical 10: McCulloch-Pitts Neuron - AND Gate
+# Inputs: [0, 0], [0, 1], [1, 0], [1, 1]
+# Weights: [1, 1], Threshold: 2
 
 inputs = [
     [0, 0],
@@ -11,7 +10,6 @@ inputs = [
 ]
 
 weights = [1, 1]
-
 threshold = 2
 
 for x in inputs:
@@ -20,6 +18,4 @@ for x in inputs:
         output = 1
     else:
         output = 0
-    print("Input:", x, " Weighted Sum:", weighted_sum, " Output:", output)
-
-print("--------------------------------------")
+    print("Input:", x, "Weighted Sum:", weighted_sum, "Output:", output)
