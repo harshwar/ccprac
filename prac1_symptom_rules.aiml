@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1">
+    <category>
+        <pattern>WELCOME</pattern>
+        <template>
+            Welcome to the flu diag center.
+            Please enter your symptoms.
+        </template>
+    </category>
+    <category>
+        <pattern>FEVER</pattern>
+        <template>No flu.</template>
+    </category>
+    <category>
+        <pattern>COUGH</pattern>
+        <template>No flu.</template>
+    </category>
+    <category>
+        <pattern>FEVER COUGH</pattern>
+        <template>You may have the flu.</template>
+    </category>
+</aiml>
